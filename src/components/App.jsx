@@ -1,16 +1,17 @@
+import Section from "./Section/Section";
+import FeedbackOptions from "./FeedbackOptions/FeedbackOptions";
+import Statistics from "./Statistics/Statistics";
+
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
+    <div class='boxProfile'>
+      <Section title="Please leave you feedback">
+      <FeedbackOptions title= "Good"/>
+      </Section>
+      
+      <Section title="Statistics">
+      <Statistics/>      
+      </Section>
     </div>
   );
 };
