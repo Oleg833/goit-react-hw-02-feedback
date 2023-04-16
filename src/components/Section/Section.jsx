@@ -3,13 +3,14 @@ import css from './Section.module.css'
 
 const Section = ({ title, children }) => {
     return (
-        <div>
-        <h2 className={css.title}> {title} </h2>
+        <section className={css.section}>
+            {title && <h2 className={css.title}> {title} </h2>}
             {children}
-        </div>
+        </section>
     );
-}
+};
 Section.propTypes = {
     title: PropTypes.string,
-}
+    children: PropTypes.node,
+};
 export default Section;
