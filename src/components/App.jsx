@@ -29,7 +29,7 @@ export class App extends Component {
 
     return (
       <div className='boxProfile'>
-        <Section title="Please leave you feedback">
+        <Section title="Please leave feedback">
           <FeedbackOptions
             options={Object.keys(this.state)}
             onLeaveFeedback={this.updateCount} />

@@ -1,5 +1,5 @@
 .box {
-    display: block;
+    margin-left: 40px;
 }
 .stat {
     margin-left: 5px;
@@ -9,6 +9,6 @@
     margin: 5px;
 }
 .value {
-    font-size: 32px;
+    font-size: 40px;
     font-weight: 500;
 }
